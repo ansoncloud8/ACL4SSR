@@ -38,8 +38,8 @@ jobs:
         git add Clash/CloudflareCIDR.list
         # Output the diff to ensure there are changes
         git diff --cached
-		# Commit the changes if any
-		git commit -m "Downloaded file on $(date "+%Y/%m/%d %H:%M:%S")" || echo "No changes to commit"
+        # Commit the changes if any
+        git commit -m "Downloaded file on $(date "+%Y/%m/%d %H:%M:%S")" || echo "No changes to commit"
 	
     - name: 更新 Clash/CloudflareCIDR.list
       run: |
