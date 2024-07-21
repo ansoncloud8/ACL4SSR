@@ -28,14 +28,14 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-		  
+
       - name: Add and commit changes
         run: |
           # Output the status to help debug
           git status
           # Add the file to staging area
-		  git add Clash/adobe.list
-		  # Output the diff to ensure there are changes
+          git add Clash/adobe.list
+          # Output the diff to ensure there are changes
           git diff --cached
           # Commit the changes if any
           git commit -m "Downloaded file on $(date "+%Y/%m/%d %H:%M:%S")" || echo "No changes to commit"
