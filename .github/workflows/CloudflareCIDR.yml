@@ -25,11 +25,24 @@ jobs:
     - name: Download File
       run: python CloudflareCIDR-main.py  # 这里 CloudflareCIDR-main.py 处理文件
 
-    - name: Commit and Push
+    - name: Set up Git
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add .
-        git commit -m "Downloaded file on $(date "+%Y/%m/%d %H:%M:%S")"
+
+    - name: Add and commit changes
+      run: |
+        # Output the status to help debug
+        git status
+        # Add the file to staging area
+        git add Clash/CloudflareCIDR.list
+        # Output the diff to ensure there are changes
+        git diff --cached
+		# Commit the changes if any
+		git commit -m "Downloaded file on $(date "+%Y/%m/%d %H:%M:%S")" || echo "No changes to commit"
+	
+    - name: 更新 Clash/CloudflareCIDR.list
+      run: |
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{github.repository}}.git
         git push
+  		  
