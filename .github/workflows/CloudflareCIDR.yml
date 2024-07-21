@@ -40,9 +40,8 @@ jobs:
         git diff --cached
         # Commit the changes if any
         git commit -m "Downloaded file on $(date "+%Y/%m/%d %H:%M:%S")" || echo "No changes to commit"
-	
+
     - name: 更新 Clash/CloudflareCIDR.list
       run: |
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{github.repository}}.git
         git push
-  		  
