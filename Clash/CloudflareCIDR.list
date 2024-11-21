@@ -307,7 +307,6 @@ IP-CIDR,172.69.40.0/22,no-resolve
 IP-CIDR,172.69.45.0/24,no-resolve
 IP-CIDR,172.69.46.0/23,no-resolve
 IP-CIDR,172.69.48.0/23,no-resolve
-IP-CIDR,172.69.50.0/24,no-resolve
 IP-CIDR,172.69.52.0/22,no-resolve
 IP-CIDR,172.69.56.0/22,no-resolve
 IP-CIDR,172.69.60.0/24,no-resolve
@@ -346,12 +345,14 @@ IP-CIDR,172.69.226.0/23,no-resolve
 IP-CIDR,172.69.228.0/23,no-resolve
 IP-CIDR,172.69.231.0/24,no-resolve
 IP-CIDR,172.69.232.0/21,no-resolve
-IP-CIDR,172.69.240.0/22,no-resolve
+IP-CIDR,172.69.241.0/24,no-resolve
+IP-CIDR,172.69.242.0/23,no-resolve
 IP-CIDR,172.69.245.0/24,no-resolve
 IP-CIDR,172.69.246.0/23,no-resolve
 IP-CIDR,172.69.248.0/24,no-resolve
 IP-CIDR,172.69.250.0/23,no-resolve
-IP-CIDR,172.69.252.0/22,no-resolve
+IP-CIDR,172.69.252.0/23,no-resolve
+IP-CIDR,172.69.254.0/24,no-resolve
 IP-CIDR,172.70.33.0/24,no-resolve
 IP-CIDR,172.70.34.0/23,no-resolve
 IP-CIDR,172.70.37.0/24,no-resolve
@@ -363,11 +364,10 @@ IP-CIDR,172.70.48.0/21,no-resolve
 IP-CIDR,172.70.56.0/22,no-resolve
 IP-CIDR,172.70.61.0/24,no-resolve
 IP-CIDR,172.70.62.0/23,no-resolve
-IP-CIDR,172.70.80.0/22,no-resolve
-IP-CIDR,172.70.84.0/23,no-resolve
-IP-CIDR,172.70.86.0/24,no-resolve
+IP-CIDR,172.70.80.0/21,no-resolve
 IP-CIDR,172.70.88.0/22,no-resolve
 IP-CIDR,172.70.92.0/23,no-resolve
+IP-CIDR,172.70.94.0/24,no-resolve
 IP-CIDR,172.70.100.0/23,no-resolve
 IP-CIDR,172.70.103.0/24,no-resolve
 IP-CIDR,172.70.104.0/24,no-resolve
@@ -392,7 +392,8 @@ IP-CIDR,172.70.176.0/20,no-resolve
 IP-CIDR,172.70.192.0/23,no-resolve
 IP-CIDR,172.70.195.0/24,no-resolve
 IP-CIDR,172.70.196.0/22,no-resolve
-IP-CIDR,172.70.200.0/22,no-resolve
+IP-CIDR,172.70.200.0/24,no-resolve
+IP-CIDR,172.70.202.0/23,no-resolve
 IP-CIDR,172.70.205.0/24,no-resolve
 IP-CIDR,172.70.206.0/23,no-resolve
 IP-CIDR,172.70.209.0/24,no-resolve
@@ -820,7 +821,8 @@ IP-CIDR,198.41.234.0/24,no-resolve
 IP-CIDR,198.41.243.0/24,no-resolve
 IP-CIDR,198.41.245.0/24,no-resolve
 IP-CIDR,198.41.246.0/23,no-resolve
-IP-CIDR,198.41.248.0/22,no-resolve
+IP-CIDR,198.41.248.0/24,no-resolve
+IP-CIDR,198.41.250.0/23,no-resolve
 IP-CIDR,198.41.254.0/23,no-resolve
 # AS149648 (RESERVED)
 # APNIC ASN block
